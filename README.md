@@ -1,15 +1,15 @@
-# vncdecrypt
-VNC password file decryptor
-
-short code to decrypt VNC password files
-
-Usage: ./vncdecrypt.py file
-
-Sample (file taken from HTB)
-
-$ ./vncdecrypt.py ./secret
-[*] VNC Password File Decryptor [*]
-
-[*] Opening file:  ./secret
-[*] Data read:  b'\xbd\xa8[|\xd5\x96z!'
-[*] Decrypted pwd:  VNCP@$$!
+# vncdecrypt[b]
+VNC password file decryptor[b]
+[b]
+short code to decrypt VNC password files[b]
+[b]
+Usage: ./vncdecrypt.py file[b]
+[b]
+Sample (file taken from HTB)[b]
+[b]
+$ ./vncdecrypt.py ./secret[b]
+[*] VNC Password File Decryptor [*][b]
+[b]
+[*] Opening file:  ./secret[b]
+[*] Data read:  b'\xbd\xa8[|\xd5\x96z!'[b]
+[*] Decrypted pwd:  VNCP@$$![b]
