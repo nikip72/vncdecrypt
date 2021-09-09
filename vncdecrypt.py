@@ -3,13 +3,13 @@ import sys,pyDes
 
 def usage():
 	print("[-] Usage: ",str(sys.argv[0])," -i file / -s hex string")
+    sys.exit(1)
 
 key = [232, 74, 214, 96, 196, 114, 26, 224]
 print("VNC Password Decryptor")
 print("----------------------")
 if(len(sys.argv)<3):
 	usage()
-	sys.exit(1)
 
 mode = str(sys.argv[1])
 
@@ -24,7 +24,6 @@ elif(mode.lower() == "-s"):
 
 else:
 	usage()
-	sys.exit(1)
 
 print("[*] Data: ",pwd)
 des = pyDes.des(key)
