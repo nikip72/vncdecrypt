@@ -3,7 +3,7 @@ import sys,pyDes
 
 def usage():
 	print("[-] Usage: ",str(sys.argv[0])," -i file / -s hex string")
-    sys.exit(1)
+	sys.exit(1)
 
 key = [232, 74, 214, 96, 196, 114, 26, 224]
 print("VNC Password Decryptor")
