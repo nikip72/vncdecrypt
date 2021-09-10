@@ -14,10 +14,13 @@ $ sudo pip3 install pyDes
 
 ## Sample
 ```
-$ python3 vncdecrypt.py -s D7A514D8C556AADE                                                                             VNC Password Decryptor
+$ ./vncdecrypt.py -i ./com.apple.VNCSettings.txt
+VNC Password Decryptor
 ----------------------
-[*] Data:  bytearray(b'\xd7\xa5\x14\xd8\xc5V\xaa\xde')
-[*] Decrypted pwd:  Secure!
+[*] Opening file:  ./com.apple.VNCSettings.txt
+[*] Data:  bytearray(b'Gu\x02=\xdc\xe7\x97\xa6\xff\x1c9Vs\x90\xad\xca')
+[*] Seems like a native MAC VNC password
+[*] Decrypted password:  PASSWORD
 $
 ```
 
@@ -48,4 +51,7 @@ C:\Program Files\UltraVNC\ultravnc.ini
 Value: passwd or passwd2
 ```
 
-## TODO: add password locations for Mac and Linux
+__Native [macOS](https://www.apple.com)__
+```
+/Library/Preferences/com.apple.VNCSettings.txt
+```
