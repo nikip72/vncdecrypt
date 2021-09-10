@@ -51,7 +51,8 @@ C:\Program Files\UltraVNC\ultravnc.ini
 Value: passwd or passwd2
 ```
 
-__Native [macOS](https://www.apple.com)__
+__On [macOS](https://www.apple.com)__
 ```
+Native macOS VNC server
 /Library/Preferences/com.apple.VNCSettings.txt
 ```
