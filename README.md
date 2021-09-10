@@ -56,3 +56,9 @@ __On [macOS](https://www.apple.com)__
 Native macOS VNC server
 /Library/Preferences/com.apple.VNCSettings.txt
 ```
+
+__On [Linux](https://www.linux.org)__
+```
+TightVNC
+~/.vnc/passwd
+```
