@@ -19,7 +19,7 @@ VNC Password Decryptor
 ----------------------
 [*] Opening file:  ./com.apple.VNCSettings.txt
 [*] Data:  bytearray(b'Gu\x02=\xdc\xe7\x97\xa6\xff\x1c9Vs\x90\xad\xca')
-[*] Seems like a native MAC VNC password
+[*] Looks like a native MAC VNC password
 [*] Decrypted password:  PASSWORD
 $
 ```
@@ -61,4 +61,13 @@ __On [Linux](https://www.linux.org)__
 ```
 TightVNC
 ~/.vnc/passwd
+```
+```
+TigerVNC
+~/.vnc/passwd
+```
+```
+x11vnc
+~/.vnc/passwd
+~/.vnc/passwdfile
 ```
